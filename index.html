@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oscar Rico — Desarrollador Backend Java</title>
+  <meta name="description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot en formación. Estudiante de Ingeniería Informática en la UNED.">
+  <meta name="author" content="Oscar Rico">
+  <meta name="theme-color" content="#080b10">
+  <link rel="canonical" href="https://ricocodetech.github.io/">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Oscar Rico",
+      "jobTitle": "Desarrollador Backend Java",
+      "url": "https://ricocodetech.github.io/",
+      "sameAs": ["https://github.com/RicoCodetech"],
+      "knowsAbout": ["Java", "MySQL", "SQL", "Git", "Linux", "Maven", "JUnit 5"]
+    }
+  </script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Oscar Rico — Desarrollador Backend Java">
+  <meta property="og:description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot en formación.">
+  <meta property="og:url" content="https://ricocodetech.github.io/">
+  <meta property="og:image" content="https://ricocodetech.github.io/assets/img/avatar.jpg">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Oscar Rico — Desarrollador Backend Java">
+  <meta name="twitter:description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot en formación.">
+  <meta name="twitter:image" content="https://ricocodetech.github.io/assets/img/avatar.jpg">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Oscar Rico — Inicio" data-i18n-aria="brand.label">
+        <span class="brand-mark" aria-hidden="true">OR</span>
+        <span class="brand-name">Oscar Rico</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-i18n-aria="nav.label">
+        <ul>
+          <li><a href="#inicio" data-i18n="nav.home">Inicio</a></li>
+          <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+          <li><a href="#tecnologias" data-i18n="nav.tech">Tecnologías</a></li>
+          <li><a href="#proyectos" data-i18n="nav.projects">Proyectos</a></li>
+          <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Cambiar a inglés" data-i18n-aria="lang.switch">
+          <span data-lang-opt="es">ES</span><span class="lang-sep" aria-hidden="true">/</span><span data-lang-opt="en">EN</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.status">Disponible para prácticas y primera oportunidad junior</span>
+          </p>
+
+          <h1 id="hero-title">
+            <span data-i18n="hero.greeting">Hola, soy</span>
+            <span class="gradient-text">Oscar Rico</span>
+          </h1>
+
+          <p class="hero-role" data-i18n="hero.role">Desarrollador Backend Java</p>
+
+          <p class="hero-bio" data-i18n="hero.bio">Construyo aplicaciones backend con Java y MySQL, cuidando el código limpio, las pruebas y las buenas prácticas. Estudio Ingeniería Informática en la UNED y sigo explorando nuevos retos: APIs REST, Solidity y ciberseguridad.</p>
+
+          <ul class="hero-meta">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 5-8 11-8 11s-8-6-8-11a8 8 0 1 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="2.5"></circle>
+              </svg>
+              <span data-i18n="hero.location">España · Remoto</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m3 9 9-5 9 5-9 5-9-5Z"></path>
+                <path d="M7 11.5V16c0 1.5 2.2 3 5 3s5-1.5 5-3v-4.5"></path>
+                <path d="M21 9v6"></path>
+              </svg>
+              <span data-i18n="hero.education">Ingeniería Informática · UNED</span>
+            </li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos" data-i18n="hero.ctaProjects">Ver proyectos</a>
+            <a class="btn btn-ghost" id="cv-link" href="#contacto" data-cv-src="assets/cv/Oscar-Rico-CV.pdf" data-cv-pending="true" aria-disabled="true">
+              <span data-i18n="hero.ctaCv">Descargar CV</span>
+              <span class="btn-note" data-i18n="hero.cvNote">próximamente</span>
+            </a>
+          </div>
+
+          <ul class="tech-strip" aria-label="Java, MySQL, Git, Linux y Spring Boot en formación" data-i18n-aria="hero.stackLabel">
+            <li>Java</li>
+            <li>Spring Boot <span class="tag-note" data-i18n="tech.learning">en formación</span></li>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="avatar-glow" aria-hidden="true"></div>
+          <div class="avatar-frame">
+            <img src="assets/img/avatar.jpg" alt="Oscar Rico" width="320" height="320" fetchpriority="high" decoding="async">
+          </div>
+
+          <div class="code-card" aria-hidden="true">
+            <div class="code-card-bar">
+              <span></span><span></span><span></span>
+              <p>Developer.java</p>
+            </div>
+            <pre><code><span class="c-key">public class</span> <span class="c-type">Developer</span> {
+  <span class="c-key">private final</span> String name = <span class="c-str">"Oscar Rico"</span>;
+  <span class="c-key">private final</span> String role = <span class="c-str">"Backend Java"</span>;
+  <span class="c-key">private final</span> String[] stack = {
+    <span class="c-str">"Java"</span>, <span class="c-str">"Spring Boot"</span>, <span class="c-str">"MySQL"</span>
+  };
+  <span class="c-comment">// clean code · testing · APIs</span>
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span>01</span><span data-i18n="about.label">Sobre mí</span></p>
+          <h2 id="about-title" data-i18n="about.title">Curiosidad, código y ganas de aprender</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p data-i18n="about.p1">Soy Oscar, desarrollador backend y estudiante de Ingeniería Informática en la UNED. Me gusta entender cómo funcionan las cosas por dentro y convertir esa curiosidad en software claro, mantenible y fácil de probar.</p>
+            <p data-i18n="about.p2">Mi foco actual está en el ecosistema Java: aplicaciones con MySQL y buenas prácticas como testing, control de versiones y despliegue. Estoy dando mis primeros pasos con APIs REST y Spring Boot, y disfruto especialmente diseñando la lógica y la estructura de datos antes de escribir la primera línea.</p>
+            <p data-i18n="about.p3">Fuera del backend también me interesan la seguridad y la tecnología blockchain. Estoy explorando la creación de smart contracts con Solidity y la idea de montar un pequeño SOC doméstico con una Raspberry Pi y un VPS. Aprender haciendo es mi forma favorita de avanzar.</p>
+          </div>
+
+          <ul class="facts reveal">
+            <li>
+              <span class="fact-key" data-i18n="about.fact1k">Formación</span>
+              <span class="fact-value" data-i18n="about.fact1v">Ingeniería Informática · UNED</span>
+            </li>
+            <li>
+              <span class="fact-key" data-i18n="about.fact2k">Enfoque</span>
+              <span class="fact-value" data-i18n="about.fact2v">Backend · Java · MySQL</span>
+            </li>
+            <li>
+              <span class="fact-key" data-i18n="about.fact3k">Explorando</span>
+              <span class="fact-value" data-i18n="about.fact3v">Solidity · Ciberseguridad</span>
+            </li>
+            <li>
+              <span class="fact-key" data-i18n="about.fact4k">Disponibilidad</span>
+              <span class="fact-value" data-i18n="about.fact4v">Prácticas / Junior · Remoto</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologias" aria-labelledby="tech-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span>02</span><span data-i18n="tech.label">Tecnologías</span></p>
+          <h2 id="tech-title" data-i18n="tech.title">Las herramientas con las que trabajo</h2>
+          <p class="section-intro" data-i18n="tech.intro">Lo que ya uso en proyectos reales y lo que estoy aprendiendo ahora mismo, sin exagerar niveles.</p>
+        </div>
+
+        <div class="tech-grid">
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="6" rx="2"></rect>
+                <rect x="3" y="14" width="18" height="6" rx="2"></rect>
+                <path d="M7 7h.01M7 17h.01"></path>
+              </svg>
+            </div>
+            <h3 data-i18n="tech.backend">Backend</h3>
+            <ul class="tag-list">
+              <li class="tag">Java</li>
+              <li class="tag">Spring Boot <span class="tag-note" data-i18n="tech.learning">en formación</span></li>
+              <li class="tag">APIs REST <span class="tag-note" data-i18n="tech.inProgress">en progreso</span></li>
+            </ul>
+          </article>
+
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="8" ry="3"></ellipse>
+                <path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"></path>
+                <path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"></path>
+              </svg>
+            </div>
+            <h3 data-i18n="tech.data">Datos</h3>
+            <ul class="tag-list">
+              <li class="tag">MySQL</li>
+              <li class="tag">H2</li>
+              <li class="tag">SQL</li>
+            </ul>
+          </article>
+
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                <path d="m7 9 3 3-3 3M13 15h4"></path>
+              </svg>
+            </div>
+            <h3 data-i18n="tech.tools">Herramientas</h3>
+            <ul class="tag-list">
+              <li class="tag">Git</li>
+              <li class="tag">GitHub</li>
+              <li class="tag">Maven</li>
+              <li class="tag">JUnit 5</li>
+              <li class="tag">Linux</li>
+            </ul>
+          </article>
+
+          <article class="tech-card reveal">
+            <div class="tech-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"></path>
+              </svg>
+            </div>
+            <h3 data-i18n="tech.exploring">Explorando</h3>
+            <ul class="tag-list">
+              <li class="tag">Solidity</li>
+              <li class="tag" data-i18n="tech.security">Ciberseguridad</li>
+              <li class="tag">Raspberry Pi</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="tech-note reveal" data-i18n="tech.note">Spring Boot, las APIs REST, Solidity y la ciberseguridad aparecen como áreas en aprendizaje: prefiero mostrarlas con honestidad mientras construyo proyectos que las demuestren.</p>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span>03</span><span data-i18n="projects.label">Proyectos</span></p>
+          <h2 id="projects-title" data-i18n="projects.title">Proyectos reales, sin relleno</h2>
+          <p class="section-intro" data-i18n="projects.intro">Esta sección crece a medida que termino nuevos proyectos. Ahora mismo, este es el que mejor representa mi forma de trabajar.</p>
+        </div>
+
+        <article class="project-card reveal">
+          <div class="project-media">
+            <div class="terminal" aria-hidden="true">
+              <div class="terminal-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <p>inventario — bash</p>
+              </div>
+              <div class="terminal-body">
+                <p><span class="t-prompt">$</span> java -jar inventario-tienda-1.0.0.jar</p>
+                <p class="t-muted">=== SISTEMA DE INVENTARIO ===</p>
+                <p>1. Insertar producto</p>
+                <p>2. Modificar producto</p>
+                <p>3. Consultar producto</p>
+                <p>4. Listar productos de la tienda</p>
+                <p>5. Eliminar producto</p>
+                <p>6. Listar productos por categoría</p>
+                <p>7. Salir</p>
+                <p class="t-gap"><span class="t-prompt">&gt;</span> 4</p>
+                <p class="t-ok">Listado completado</p>
+                <p><span class="t-prompt">&gt;</span> <span class="cursor"></span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-badge" data-i18n="projects.featured">Proyecto destacado</span>
+              <span class="project-type">CLI · Java</span>
+            </div>
+
+            <h3 data-i18n="projects.inv.title">Sistema de Inventario de Tienda</h3>
+            <p class="project-desc" data-i18n="projects.inv.desc">Aplicación de línea de comandos para gestionar el inventario de una tienda. Implementa un CRUD completo sobre MySQL con una arquitectura modular basada en interfaz e implementación, validación de datos y pruebas automatizadas.</p>
+
+            <ul class="project-points">
+              <li data-i18n="projects.inv.point1">CRUD completo de productos sobre MySQL</li>
+              <li data-i18n="projects.inv.point2">Arquitectura modular con interfaz e implementación</li>
+              <li data-i18n="projects.inv.point3">Validaciones de datos y cantidades no negativas</li>
+              <li data-i18n="projects.inv.point4">Tests con JUnit 5 + H2 y CI con GitHub Actions</li>
+            </ul>
+
+            <ul class="tag-list project-tags">
+              <li class="tag">Java</li>
+              <li class="tag">MySQL</li>
+              <li class="tag">Maven</li>
+              <li class="tag">JUnit 5</li>
+              <li class="tag">H2</li>
+              <li class="tag">GitHub Actions</li>
+            </ul>
+
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://github.com/RicoCodetech/inventario" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="projects.viewCode">Ver código</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/RicoCodetech/inventario#readme" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="projects.docs">Documentación</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <p class="projects-note reveal">
+          <span data-i18n="projects.note">La API REST con Spring Boot está en camino y tendrá su propia tarjeta cuando esté publicada.</span>
+          <a href="https://github.com/RicoCodetech?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <span data-i18n="projects.noteLink">Ver todos mis repositorios</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span>04</span><span data-i18n="contact.label">Contacto</span></p>
+          <h2 id="contact-title" data-i18n="contact.title">¿Hablamos?</h2>
+          <p class="section-intro" data-i18n="contact.intro">Busco prácticas o una primera oportunidad como desarrollador backend. Si crees que puedo encajar en tu equipo, revisa mi GitHub y hablemos.</p>
+        </div>
+
+        <div class="contact-panel reveal">
+          <div class="contact-copy">
+            <h3 data-i18n="contact.heading">Abierto a nuevos retos</h3>
+            <p data-i18n="contact.body">Me interesa aprender en un equipo real, aportar desde el primer día y seguir creciendo como desarrollador. Estoy disponible para trabajar en remoto o en modalidad híbrida.</p>
+
+            <ul class="contact-meta">
+              <li>
+                <span class="status-dot" aria-hidden="true"></span>
+                <span data-i18n="contact.status">Disponible para prácticas y primera oportunidad junior</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 10c0 5-8 11-8 11s-8-6-8-11a8 8 0 1 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="2.5"></circle>
+                </svg>
+                <span data-i18n="hero.location">España · Remoto</span>
+              </li>
+            </ul>
+          </div>
+
+          <a class="github-card" href="https://github.com/RicoCodetech" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Oscar Rico" data-i18n-aria="contact.githubAria">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path>
+            </svg>
+            <span class="github-card-body">
+              <span class="github-card-label" data-i18n="contact.githubLabel">Encuéntrame en GitHub</span>
+              <span class="github-card-handle">@RicoCodetech</span>
+            </span>
+            <span class="github-card-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <p class="contact-note reveal" data-i18n="contact.note">El correo y LinkedIn llegarán pronto. Mientras tanto, GitHub es el mejor sitio para contactar conmigo.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Oscar Rico. <span data-i18n="footer.built">Hecho con HTML, CSS y JavaScript.</span></p>
+      <div class="footer-links">
+        <a href="https://github.com/RicoCodetech" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#inicio" data-i18n="footer.top">Volver arriba</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
