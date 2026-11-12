@@ -15,13 +15,14 @@ externas. Tipografía del sistema y estilos propios en `assets/css/styles.css`.
 ├── index.html
 ├── 404.html
 ├── .nojekyll
-├── assets/
-│   ├── css/styles.css
-│   ├── js/i18n.js
-│   ├── js/main.js
-│   ├── cv/
-│   └── img/
-└── mi_descripcion.md
+├── .gitignore
+├── README.md
+└── assets/
+    ├── css/styles.css
+    ├── js/i18n.js
+    ├── js/main.js
+    ├── cv/
+    └── img/
 ```
 
 ## Desarrollo local
@@ -34,11 +35,11 @@ Abrir http://localhost:8000.
 
 ## Contenido
 
-- `mi_descripcion.md`: brief de identidad, biografía, tecnologías, flujo con IA y proyectos.
-- `AGENTS.md`: contexto técnico y decisiones del proyecto.
 - `assets/js/i18n.js`: textos en español e inglés.
 - `assets/cv/`: colocar aquí el PDF del CV con el nombre `Oscar-Rico-CV.pdf`.
   Mientras no exista, el botón muestra el aviso "CV próximamente".
+- La documentación interna de trabajo (`AGENTS.md` y `mi_descripcion.md`) se
+  mantiene en local y no se versiona en este repositorio público.
 
 ## Publicación
 
