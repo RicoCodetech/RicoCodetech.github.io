@@ -773,6 +773,106 @@ section[id] {
   font-size: 0.85rem;
 }
 
+.tech-ai {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+  margin-top: 1rem;
+  padding: clamp(1.4rem, 3vw, 2rem);
+  border: 1px solid rgba(53, 224, 161, 0.22);
+  border-radius: var(--radius);
+  background: linear-gradient(155deg, rgba(53, 224, 161, 0.06), rgba(148, 163, 184, 0.015));
+}
+
+.tech-ai-kicker {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.tech-ai h3 {
+  margin-top: 0.5rem;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  letter-spacing: -0.02em;
+}
+
+.tech-ai-lead {
+  max-width: 54ch;
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.tech-ai-tools-label {
+  margin-top: 1.2rem;
+  color: var(--dim);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tech-ai-tools {
+  margin-top: 0.6rem;
+}
+
+.tech-ai-note {
+  margin-top: 0.9rem;
+  color: var(--dim);
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.tech-ai-steps {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: ai-step;
+}
+
+.tech-ai-step {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  background: rgba(8, 11, 16, 0.35);
+}
+
+.tech-ai-step::before {
+  counter-increment: ai-step;
+  content: "0" counter(ai-step);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+}
+
+.tech-ai-step strong {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.tech-ai-step span {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
+.tech-ai-disclaimer {
+  margin-top: 0.9rem;
+  color: var(--dim);
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+
 .project-card {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
@@ -1221,6 +1321,10 @@ section[id] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .tech-ai {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .project-card {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -1320,6 +1424,10 @@ section[id] {
   }
 
   .tech-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tech-ai-steps {
     grid-template-columns: minmax(0, 1fr);
   }
 

@@ -38,8 +38,13 @@ equipos técnicos.
 ## 4. Reglas de contenido
 
 - Solo proyectos reales. No inventar proyectos, métricas, empresas, fechas ni experiencia.
-- Spring Boot, APIs REST, Solidity y ciberseguridad se muestran como
-  "en formación" / "en progreso" hasta que exista evidencia (repo o demo).
+- Spring Boot forma parte del stack actual y no se etiqueta como "en formación".
+  El proyecto que lo demuestra se añadirá al publicarse.
+- APIs REST, Solidity y ciberseguridad se mantienen como "en progreso" /
+  "explorando" hasta que exista evidencia (repo o demo).
+- El flujo con IA (Warp, OpenCode y Claude Code) se describe con prácticas
+  verificables: contexto, planificación, revisión de diffs, tests y
+  verificación. No afirmar uso diario de herramientas que no se usen.
 - Todo texto nuevo debe existir en español e inglés.
 - Español neutro, frases cortas, tono profesional y cercano. Inglés natural, no
   traducción literal.
@@ -126,11 +131,14 @@ No existen comandos de build, lint ni tests: es un sitio estático.
   "Ver proyectos" y "Descargar CV".
 - **Sobre mí:** perfil, formación UNED, enfoque backend, intereses en
   ciberseguridad/Solidity y ficha de datos rápidos.
-- **Tecnologías:** Backend (Java, Spring Boot en formación, APIs REST en
-  progreso), Datos (MySQL, H2, SQL), Herramientas (Git, GitHub, Maven,
-  JUnit 5, Linux) y Explorando (Solidity, ciberseguridad, Raspberry Pi).
+- **Tecnologías:** Backend (Java, Spring Boot, APIs REST en progreso), Datos
+  (MySQL, H2, SQL), Herramientas (Git, GitHub, Maven, JUnit 5, Linux),
+  Explorando (Solidity, ciberseguridad, Raspberry Pi) y Flujo con IA
+  (Warp, OpenCode y Claude Code; contexto, planificación, revisión, tests y
+  verificación).
 - **Proyectos:** tarjeta destacada de `inventario` con vista previa de terminal,
-  stack, puntos fuertes y enlaces. La API REST se añadirá cuando esté publicada.
+  stack, puntos fuertes y enlaces. El proyecto Spring Boot/API REST se añadirá
+  cuando esté publicado.
 - **Contacto:** GitHub, disponibilidad y ubicación. Email/LinkedIn pendientes.
 - **Footer:** año dinámico, stack del sitio y enlace a GitHub.
 
@@ -143,7 +151,9 @@ No existen comandos de build, lint ni tests: es un sitio estático.
 - Tests con JUnit 5 + H2; CI con GitHub Actions; build con Maven; licencia MIT.
 - Documentación y SRS en el propio repo.
 
-No afirmar que usa Spring Boot: actualmente es Java + JDBC/MySQL.
+No afirmar que el proyecto `inventario` usa Spring Boot: actualmente es
+Java + JDBC/MySQL. El nuevo proyecto Spring Boot tendrá su propia tarjeta
+cuando esté publicado.
 
 ## 12. Estado y pendientes
 
@@ -151,13 +161,16 @@ No afirmar que usa Spring Boot: actualmente es Java + JDBC/MySQL.
 - [x] Sitio implementado (HTML, CSS, JS, i18n, 404, favicon).
 - [ ] PDF del CV en `assets/cv/`.
 - [ ] Email y LinkedIn.
-- [ ] Tarjeta de la API REST cuando esté terminada.
+- [ ] Tarjeta del proyecto Spring Boot/API REST cuando esté publicado.
 - [ ] Captura real de terminal (opcional; ahora hay una vista CSS).
-- [ ] Commit local y push a GitHub Pages.
+- [x] Publicación inicial en GitHub Pages.
+- [x] Commit local de los cambios de contenido (IA y Spring Boot).
+- [ ] Push de los cambios de contenido a GitHub Pages.
 
 ## 13. Próximos pasos sugeridos
 
 - Añadir badge "Disponible para prácticas/junior" si se quiere reforzar.
 - Actualizar el README del perfil de GitHub con el mismo resumen.
-- Cuando exista la API REST, incluir demo o Swagger para demostrar Spring Boot.
+- Cuando exista el proyecto Spring Boot, incluir demo o Swagger para demostrarlo.
+- Revisar el bloque de IA si cambia el flujo de trabajo o las herramientas.
 - Incorporar LinkedIn y CV en cuanto estén listos.

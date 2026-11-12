@@ -34,7 +34,7 @@ Abrir http://localhost:8000.
 
 ## Contenido
 
-- `mi_descripcion.md`: brief de identidad, biografía, tecnologías y proyectos.
+- `mi_descripcion.md`: brief de identidad, biografía, tecnologías, flujo con IA y proyectos.
 - `AGENTS.md`: contexto técnico y decisiones del proyecto.
 - `assets/js/i18n.js`: textos en español e inglés.
 - `assets/cv/`: colocar aquí el PDF del CV con el nombre `Oscar-Rico-CV.pdf`.
@@ -49,5 +49,5 @@ carpeta raíz. En GitHub: *Settings → Pages → Deploy from a branch → main 
 
 - PDF del CV.
 - Email y LinkedIn.
-- Tarjeta de la API REST con Spring Boot.
+- Tarjeta del proyecto Spring Boot/API REST.
 - Captura real de la terminal (opcional).
