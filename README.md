@@ -41,8 +41,6 @@ Abrir http://localhost:8000.
 - `robots.txt` y `sitemap.xml`: directrices de indexación para buscadores.
 - `assets/cv/`: colocar aquí el PDF del CV con el nombre `Oscar-Rico-CV.pdf`.
   Mientras no exista, el botón muestra el aviso "CV próximamente".
-- La documentación interna de trabajo (`AGENTS.md` y `mi_descripcion.md`) se
-  mantiene en local y no se versiona en este repositorio público.
 
 ## Publicación
 
@@ -54,4 +52,3 @@ carpeta raíz. En GitHub: *Settings → Pages → Deploy from a branch → main 
 - PDF del CV.
 - Email.
 - Tarjeta del proyecto Spring Boot/API REST.
-- Captura real de la terminal (opcional).
