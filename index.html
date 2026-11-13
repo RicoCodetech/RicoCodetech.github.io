@@ -28,6 +28,7 @@
   <meta property="og:image" content="https://ricocodetech.github.io/assets/img/avatar.jpg">
   <meta property="og:locale" content="es_ES">
   <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Oscar Rico — Desarrollador Backend Java">
   <meta name="twitter:description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot, con un flujo de desarrollo asistido por IA.">
@@ -58,9 +59,11 @@
       </nav>
 
       <div class="header-actions">
-        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Cambiar a inglés" data-i18n-aria="lang.switch">
-          <span data-lang-opt="es">ES</span><span class="lang-sep" aria-hidden="true">/</span><span data-lang-opt="en">EN</span>
-        </button>
+        <div class="lang-switch" role="group" aria-label="Idioma del sitio" data-i18n-aria="lang.groupLabel">
+          <button class="lang-btn" type="button" data-lang="es" aria-pressed="true" aria-label="Español" lang="es">ES</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false" aria-label="English" lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false" aria-label="Русский" lang="ru">RU</button>
+        </div>
         <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú">
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>

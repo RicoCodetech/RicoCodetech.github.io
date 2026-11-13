@@ -1,6 +1,6 @@
 # Portafolio — Oscar Rico
 
-Sitio personal bilingüe (ES/EN) de Oscar Rico, desarrollador backend Java.
+Sitio personal multilingüe (ES/EN/RU) de Oscar Rico, desarrollador backend Java.
 Publicado con GitHub Pages en https://ricocodetech.github.io.
 
 ## Stack
@@ -35,7 +35,7 @@ Abrir http://localhost:8000.
 
 ## Contenido
 
-- `assets/js/i18n.js`: textos en español e inglés.
+- `assets/js/i18n.js`: textos en español, inglés y ruso.
 - `assets/cv/`: colocar aquí el PDF del CV con el nombre `Oscar-Rico-CV.pdf`.
   Mientras no exista, el botón muestra el aviso "CV próximamente".
 - La documentación interna de trabajo (`AGENTS.md` y `mi_descripcion.md`) se

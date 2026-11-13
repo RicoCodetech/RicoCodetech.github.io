@@ -2,14 +2,15 @@
   "use strict";
 
   var STORAGE_KEY = "portfolio-lang";
-  var SUPPORTED = ["es", "en"];
+  var SUPPORTED = ["es", "en", "ru"];
+  var LOCALES = { es: "es_ES", en: "en_US", ru: "ru_RU" };
   var translations = window.PORTFOLIO_I18N || {};
   var currentLang = "es";
   var cvAvailable = false;
   var toastTimer = null;
 
   var html = document.documentElement;
-  var langToggle = document.getElementById("lang-toggle");
+  var langButtons = Array.prototype.slice.call(document.querySelectorAll(".lang-btn"));
   var navToggle = document.getElementById("nav-toggle");
   var siteNav = document.getElementById("site-nav");
   var header = document.getElementById("site-header");
@@ -41,7 +42,8 @@
       return stored;
     }
     var browserLang = (navigator.language || "es").toLowerCase();
-    return browserLang.indexOf("en") === 0 ? "en" : "es";
+    var shortLang = browserLang.slice(0, 2);
+    return SUPPORTED.indexOf(shortLang) !== -1 ? shortLang : "es";
   }
 
   function setMeta(selector, value) {
@@ -113,8 +115,19 @@
     setMeta('meta[property="og:description"]', dict["meta.description"]);
     setMeta('meta[name="twitter:title"]', dict["meta.title"]);
     setMeta('meta[name="twitter:description"]', dict["meta.description"]);
-    setMeta('meta[property="og:locale"]', lang === "es" ? "es_ES" : "en_US");
-    setMeta('meta[property="og:locale:alternate"]', lang === "es" ? "en_US" : "es_ES");
+    setMeta('meta[property="og:locale"]', LOCALES[lang]);
+    var alternateLocales = SUPPORTED.filter(function (code) {
+      return code !== lang;
+    });
+    document.querySelectorAll('meta[property="og:locale:alternate"]').forEach(function (element, index) {
+      if (alternateLocales[index]) {
+        element.setAttribute("content", LOCALES[alternateLocales[index]]);
+      }
+    });
+
+    langButtons.forEach(function (button) {
+      button.setAttribute("aria-pressed", String(button.getAttribute("data-lang") === lang));
+    });
 
     updateNavToggleLabel();
     updateCvState();
@@ -151,11 +164,11 @@
       });
   }
 
-  if (langToggle) {
-    langToggle.addEventListener("click", function () {
-      applyLang(currentLang === "es" ? "en" : "es");
+  langButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      applyLang(button.getAttribute("data-lang"));
     });
-  }
+  });
 
   if (navToggle && siteNav) {
     navToggle.addEventListener("click", function () {
