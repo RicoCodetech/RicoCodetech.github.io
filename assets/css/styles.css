@@ -1139,7 +1139,12 @@ section[id] {
   color: var(--accent);
 }
 
-.github-card {
+.contact-links {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.social-card {
   display: flex;
   align-items: center;
   gap: 0.9rem;
@@ -1150,38 +1155,38 @@ section[id] {
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
-.github-card:hover {
+.social-card:hover {
   border-color: rgba(53, 224, 161, 0.45);
   background: rgba(53, 224, 161, 0.05);
   transform: translateY(-3px);
 }
 
-.github-card > svg {
+.social-card > svg {
   flex: none;
   width: 2rem;
   height: 2rem;
   color: var(--text);
 }
 
-.github-card-body {
+.social-card-body {
   display: flex;
   flex-direction: column;
   gap: 0.12rem;
   min-width: 0;
 }
 
-.github-card-label {
+.social-card-label {
   color: var(--dim);
   font-size: 0.78rem;
 }
 
-.github-card-handle {
+.social-card-handle {
   color: var(--text);
   font-family: var(--font-mono);
   font-size: 0.95rem;
 }
 
-.github-card-arrow {
+.social-card-arrow {
   margin-left: auto;
   color: var(--accent);
   font-size: 1.1rem;
@@ -1490,7 +1495,7 @@ section[id] {
 
   .btn:hover,
   .tech-card:hover,
-  .github-card:hover {
+  .social-card:hover {
     transform: none;
   }
 }

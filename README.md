@@ -52,6 +52,6 @@ carpeta raíz. En GitHub: *Settings → Pages → Deploy from a branch → main 
 ## Pendientes
 
 - PDF del CV.
-- Email y LinkedIn.
+- Email.
 - Tarjeta del proyecto Spring Boot/API REST.
 - Captura real de la terminal (opcional).
