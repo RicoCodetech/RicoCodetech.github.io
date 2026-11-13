@@ -109,6 +109,13 @@
       }
     });
 
+    document.querySelectorAll("[data-i18n-alt]").forEach(function (element) {
+      var key = element.getAttribute("data-i18n-alt");
+      if (dict[key] != null) {
+        element.setAttribute("alt", dict[key]);
+      }
+    });
+
     document.title = dict["meta.title"];
     setMeta('meta[name="description"]', dict["meta.description"]);
     setMeta('meta[property="og:title"]', dict["meta.title"]);

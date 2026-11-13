@@ -17,6 +17,8 @@ externas. Tipografía del sistema y estilos propios en `assets/css/styles.css`.
 ├── .nojekyll
 ├── .gitignore
 ├── README.md
+├── robots.txt
+├── sitemap.xml
 └── assets/
     ├── css/styles.css
     ├── js/i18n.js
@@ -36,6 +38,7 @@ Abrir http://localhost:8000.
 ## Contenido
 
 - `assets/js/i18n.js`: textos en español, inglés y ruso.
+- `robots.txt` y `sitemap.xml`: directrices de indexación para buscadores.
 - `assets/cv/`: colocar aquí el PDF del CV con el nombre `Oscar-Rico-CV.pdf`.
   Mientras no exista, el botón muestra el aviso "CV próximamente".
 - La documentación interna de trabajo (`AGENTS.md` y `mi_descripcion.md`) se

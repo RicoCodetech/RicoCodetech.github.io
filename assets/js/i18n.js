@@ -18,6 +18,7 @@ window.PORTFOLIO_I18N = {
     "hero.greeting": "Hola, soy",
     "hero.role": "Desarrollador Backend Java",
     "hero.bio": "Construyo aplicaciones backend con Java, Spring Boot y MySQL, cuidando el código limpio, las pruebas y las buenas prácticas. Estudio Ingeniería Informática en la UNED y trabajo con agentes de IA para explorar, revisar y verificar código.",
+    "hero.avatarAlt": "Oscar Rico, desarrollador backend Java",
     "hero.location": "España · Remoto",
     "hero.education": "Ingeniería Informática · UNED",
     "hero.ctaProjects": "Ver proyectos",
@@ -92,6 +93,7 @@ window.PORTFOLIO_I18N = {
     "contact.note": "El correo y LinkedIn llegarán pronto. Mientras tanto, GitHub es el mejor sitio para contactar conmigo.",
 
     "footer.built": "Hecho con HTML, CSS y JavaScript.",
+    "footer.navLabel": "Enlaces del pie de página",
     "footer.top": "Volver arriba",
     "toast.cv": "El CV estará disponible próximamente.",
     "cv.pendingTitle": "CV próximamente"
@@ -116,6 +118,7 @@ window.PORTFOLIO_I18N = {
     "hero.greeting": "Hi, I'm",
     "hero.role": "Java Backend Developer",
     "hero.bio": "I build backend applications with Java, Spring Boot and MySQL, focusing on clean code, testing and good practices. I'm studying Computer Engineering at UNED and work with AI agents to explore, review and verify code.",
+    "hero.avatarAlt": "Oscar Rico, Java backend developer",
     "hero.location": "Spain · Remote",
     "hero.education": "Computer Engineering · UNED",
     "hero.ctaProjects": "View projects",
@@ -190,6 +193,7 @@ window.PORTFOLIO_I18N = {
     "contact.note": "Email and LinkedIn are coming soon. In the meantime, GitHub is the best way to reach me.",
 
     "footer.built": "Built with HTML, CSS and JavaScript.",
+    "footer.navLabel": "Footer links",
     "footer.top": "Back to top",
     "toast.cv": "The CV will be available soon.",
     "cv.pendingTitle": "CV coming soon"
@@ -214,6 +218,7 @@ window.PORTFOLIO_I18N = {
     "hero.greeting": "Привет, я",
     "hero.role": "Java-разработчик (backend)",
     "hero.bio": "Создаю backend-приложения на Java, Spring Boot и MySQL, уделяя внимание чистому коду, тестам и хорошим практикам. Учусь по специальности «Компьютерная инженерия» в UNED и работаю с ИИ-агентами, чтобы исследовать, проверять и верифицировать код.",
+    "hero.avatarAlt": "Оскар Рико, Java-разработчик (backend)",
     "hero.location": "Испания · Удалённо",
     "hero.education": "Компьютерная инженерия · UNED",
     "hero.ctaProjects": "Смотреть проекты",
@@ -288,6 +293,7 @@ window.PORTFOLIO_I18N = {
     "contact.note": "Эл. почта и LinkedIn скоро появятся. Пока лучший способ связаться со мной — GitHub.",
 
     "footer.built": "Сделано на HTML, CSS и JavaScript.",
+    "footer.navLabel": "Ссылки в подвале",
     "footer.top": "Наверх",
     "toast.cv": "CV скоро будет доступен.",
     "cv.pendingTitle": "CV скоро"

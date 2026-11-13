@@ -6,26 +6,102 @@
   <title>Oscar Rico — Desarrollador Backend Java</title>
   <meta name="description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot, con un flujo de desarrollo asistido por IA.">
   <meta name="author" content="Oscar Rico">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#080b10">
   <link rel="canonical" href="https://ricocodetech.github.io/">
 
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Oscar Rico",
-      "jobTitle": "Desarrollador Backend Java",
-      "url": "https://ricocodetech.github.io/",
-      "sameAs": ["https://github.com/RicoCodetech"],
-      "knowsAbout": ["Java", "Spring Boot", "MySQL", "SQL", "Git", "Linux", "Maven", "JUnit 5", "REST APIs", "AI-assisted development"]
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://ricocodetech.github.io/#website",
+          "url": "https://ricocodetech.github.io/",
+          "name": "Oscar Rico — Portafolio",
+          "description": "Portafolio de Oscar Rico, desarrollador backend Java.",
+          "inLanguage": ["es", "en", "ru"],
+          "publisher": {
+            "@id": "https://ricocodetech.github.io/#person"
+          }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://ricocodetech.github.io/#profile",
+          "url": "https://ricocodetech.github.io/",
+          "name": "Oscar Rico — Desarrollador Backend Java",
+          "description": "Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot, con un flujo de desarrollo asistido por IA.",
+          "inLanguage": "es",
+          "isPartOf": {
+            "@id": "https://ricocodetech.github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://ricocodetech.github.io/#person"
+          },
+          "about": {
+            "@id": "https://ricocodetech.github.io/#person"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://ricocodetech.github.io/assets/img/avatar.jpg",
+            "width": 460,
+            "height": 460
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ricocodetech.github.io/#person",
+          "name": "Oscar Rico",
+          "givenName": "Oscar",
+          "familyName": "Rico",
+          "jobTitle": "Desarrollador Backend Java",
+          "description": "Desarrollador backend Java y estudiante de Ingeniería Informática en la UNED. Construye aplicaciones con Java, Spring Boot y MySQL, cuidando el código limpio, las pruebas y las buenas prácticas.",
+          "url": "https://ricocodetech.github.io/",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://ricocodetech.github.io/assets/img/avatar.jpg",
+            "width": 460,
+            "height": 460,
+            "caption": "Oscar Rico, desarrollador backend Java"
+          },
+          "sameAs": ["https://github.com/RicoCodetech"],
+          "knowsAbout": ["Java", "Spring Boot", "MySQL", "SQL", "H2", "Maven", "JUnit 5", "Git", "GitHub Actions", "Linux", "REST APIs", "AI-assisted development"],
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "ES"
+          },
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "UNED",
+            "alternateName": "Universidad Nacional de Educación a Distancia"
+          },
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Desarrollador Backend Java",
+            "occupationalCategory": "Software Development"
+          },
+          "seeks": {
+            "@type": "Demand",
+            "name": "Prácticas o primera oportunidad junior como desarrollador backend"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://ricocodetech.github.io/#profile"
+          }
+        }
+      ]
     }
   </script>
 
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Oscar Rico">
   <meta property="og:title" content="Oscar Rico — Desarrollador Backend Java">
   <meta property="og:description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot, con un flujo de desarrollo asistido por IA.">
   <meta property="og:url" content="https://ricocodetech.github.io/">
   <meta property="og:image" content="https://ricocodetech.github.io/assets/img/avatar.jpg">
+  <meta property="og:image:width" content="460">
+  <meta property="og:image:height" content="460">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Oscar Rico, desarrollador backend Java">
   <meta property="og:locale" content="es_ES">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="ru_RU">
@@ -33,6 +109,7 @@
   <meta name="twitter:title" content="Oscar Rico — Desarrollador Backend Java">
   <meta name="twitter:description" content="Portafolio de Oscar Rico, desarrollador backend Java. Proyectos con Java, MySQL y Spring Boot, con un flujo de desarrollo asistido por IA.">
   <meta name="twitter:image" content="https://ricocodetech.github.io/assets/img/avatar.jpg">
+  <meta name="twitter:image:alt" content="Oscar Rico, desarrollador backend Java">
 
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -65,15 +142,15 @@
           <button class="lang-btn" type="button" data-lang="ru" aria-pressed="false" aria-label="Русский" lang="ru">RU</button>
         </div>
         <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú">
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
         </button>
       </div>
     </div>
   </header>
 
-  <main id="main">
+  <main id="main" tabindex="-1">
     <section class="hero section" id="inicio" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
@@ -129,7 +206,7 @@
         <div class="hero-visual reveal">
           <div class="avatar-glow" aria-hidden="true"></div>
           <div class="avatar-frame">
-            <img src="assets/img/avatar.jpg" alt="Oscar Rico" width="320" height="320" fetchpriority="high" decoding="async">
+            <img src="assets/img/avatar.jpg" alt="Oscar Rico, desarrollador backend Java" data-i18n-alt="hero.avatarAlt" width="460" height="460" fetchpriority="high" decoding="async">
           </div>
 
           <div class="code-card" aria-hidden="true">
@@ -435,10 +512,10 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year">2026</span> Oscar Rico. <span data-i18n="footer.built">Hecho con HTML, CSS y JavaScript.</span></p>
-      <div class="footer-links">
+      <nav class="footer-links" aria-label="Enlaces del pie de página" data-i18n-aria="footer.navLabel">
         <a href="https://github.com/RicoCodetech" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="#inicio" data-i18n="footer.top">Volver arriba</a>
-      </div>
+      </nav>
     </div>
   </footer>
 

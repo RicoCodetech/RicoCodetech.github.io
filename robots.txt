@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ricocodetech.github.io/sitemap.xml
