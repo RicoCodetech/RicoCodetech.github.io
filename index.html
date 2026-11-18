@@ -455,6 +455,63 @@
           </div>
         </article>
 
+        <article class="project-card reveal">
+          <div class="project-media">
+            <div class="terminal" aria-hidden="true">
+              <div class="terminal-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <p>TelegramBots — bash</p>
+              </div>
+              <div class="terminal-body">
+                <p><span class="t-prompt">$</span> ./mvnw -pl telegrambots-meta test</p>
+                <p class="t-muted">[INFO] Tests run: 733, Failures: 0, Errors: 0</p>
+                <p class="t-ok">[INFO] BUILD SUCCESS</p>
+                <p class="t-gap"><span class="t-prompt">$</span> gh pr view 1613</p>
+                <p class="t-ok">Merged into dev · approved</p>
+                <p><span class="t-prompt">&gt;</span> <span class="cursor"></span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-badge" data-i18n="projects.oss.badge">Contribución open source</span>
+              <span class="project-type">Open source · Java</span>
+            </div>
+
+            <h3 data-i18n="projects.oss.title">TelegramBots — fuga de memoria en la deserialización</h3>
+            <p class="project-desc" data-i18n="projects.oss.desc">Contribución aceptada y fusionada en la rama de desarrollo de TelegramBots, la librería Java para bots de Telegram. Sustituí la configuración de Jackson que usaba date como type-id por un deserializador propio, eliminando una caché que crecía con cada mensaje distinto.</p>
+
+            <ul class="project-points">
+              <li data-i18n="projects.oss.point1">Diagnóstico de una caché de deserializadores sin límite en Jackson</li>
+              <li data-i18n="projects.oss.point2">Deserializador propio para MaybeInaccessibleMessage</li>
+              <li data-i18n="projects.oss.point3">Mediciones: 34 MB → 5 MB retenidos con 300.000 mensajes</li>
+              <li data-i18n="projects.oss.point4">Suite en verde: 733 tests en el módulo meta</li>
+            </ul>
+
+            <ul class="tag-list project-tags">
+              <li class="tag">Java</li>
+              <li class="tag">Jackson</li>
+              <li class="tag">Maven</li>
+              <li class="tag">JUnit 5</li>
+              <li class="tag">Open source</li>
+            </ul>
+
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://github.com/rubenlagus/TelegramBots/pull/1613" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="projects.oss.linkPr">Ver PR #1613</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/rubenlagus/TelegramBots/issues/1462" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="projects.oss.linkIssue">Ver issue #1462</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
         <p class="projects-note reveal">
           <span data-i18n="projects.note">El proyecto Spring Boot con API REST está en camino y tendrá su propia tarjeta cuando esté publicado.</span>
           <a href="https://github.com/RicoCodetech?tab=repositories" target="_blank" rel="noopener noreferrer">

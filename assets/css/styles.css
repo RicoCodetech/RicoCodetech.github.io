@@ -887,6 +887,10 @@ section[id] {
   box-shadow: var(--shadow);
 }
 
+.project-card + .project-card {
+  margin-top: 1.5rem;
+}
+
 .project-media {
   position: relative;
   display: flex;
