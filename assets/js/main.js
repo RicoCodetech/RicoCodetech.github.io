@@ -36,16 +36,6 @@
     }
   }
 
-  function detectedLang() {
-    var stored = readStoredLang();
-    if (SUPPORTED.indexOf(stored) !== -1) {
-      return stored;
-    }
-    var browserLang = (navigator.language || "es").toLowerCase();
-    var shortLang = browserLang.slice(0, 2);
-    return SUPPORTED.indexOf(shortLang) !== -1 ? shortLang : "es";
-  }
-
   function setMeta(selector, value) {
     var element = document.querySelector(selector);
     if (element) {
@@ -293,6 +283,6 @@
     year.textContent = String(new Date().getFullYear());
   }
 
-  applyLang(detectedLang(), false);
+  applyLang(readStoredLang() || "es", false);
   checkCv();
 })();
